@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="style" style="text-align: center;">page1、page2都引入了组件counter</view>
+  <view class="style" style="text-align: center;">=============================================</view>
+
+  <counter></counter>
+  <view class="goPage2" bindtap="goPage2">>>跳转下一页：page2</view>
+</view>

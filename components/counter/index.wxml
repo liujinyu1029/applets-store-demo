@@ -1,0 +1,10 @@
+<view class="commponent-main">
+  <view class="tit">你认为烤鸭是最好吃的么？</view>
+  <view class="cont">
+    <view class="num">Agree：{{ $store.agreeNum }}</view>
+    <button size="mini" class="add-num" bindtap="addAgree">+</button>
+    <view style="margin: 0 50rpx;">|</view>
+    <view class="num">Disagree：{{ $store.disagreeNum }}</view>
+    <button size="mini" class="add-num" bindtap="addDisagree">+</button>
+  </view>
+</view>

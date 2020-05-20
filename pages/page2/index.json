@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "page2",
+  "usingComponents": {
+    "counter": "../../components/counter/index"
+  }
+}

@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view class="container">
+  <counter class="c"></counter>
+  <view class="goPage2" bindtap="goPage2">>>go back返回上一页：page1</view>
+</view>
