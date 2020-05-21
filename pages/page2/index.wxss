@@ -1,8 +1,0 @@
-/**index.wxss**/
-.goPage2 {
-  color: blue;
-  font-size: 30rpx;
-  margin-left: 30rpx;
-  display: block;
-  margin-top: 50rpx;
-}

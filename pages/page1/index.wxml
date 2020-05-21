@@ -1,8 +1,15 @@
-<!--index.wxml-->
+<!--page1/index.wxml-->
 <view class="container">
-  <view class="style" style="text-align: center;">page1、page2都引入了组件counter</view>
+  <view class="top-desc">页面和组件中都引入了全局变量Agree、Disagree，点击下面的button，改变"投票"数值</view>
   <view class="style" style="text-align: center;">=============================================</view>
+  <!--  -->
+  <view class="h2">这里是page内容</view>
+  <view class="page-cont">
+    <view>Agree：{{ $store.agreeNum }}</view>
+    <button size="mini" class="add-num" bindtap="addAgree">点击投Agree一票</button>
+  </view>
 
+  <view class="h2">下面引入了公共组件counter</view>
   <counter></counter>
   <view class="goPage2" bindtap="goPage2">>>跳转下一页：page2</view>
 </view>

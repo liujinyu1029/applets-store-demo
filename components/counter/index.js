@@ -2,6 +2,7 @@ import { component } from '../../applets-store/src/index';
 
 component({
   data: {},
+  // $store 属性，用了指定当前组件中，可以使用的 全局store变量 【待定】
   $store: {
     agreeNum: {
       observer: 'onChange_agreeNum',

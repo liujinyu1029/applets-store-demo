@@ -1,5 +1,5 @@
 {
-  "navigationBarTitleText": "page1",
+  "navigationBarTitleText": "我是-页面1",
   "usingComponents": {
     "counter": "../../components/counter/index"
   }
