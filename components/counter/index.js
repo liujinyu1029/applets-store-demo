@@ -6,11 +6,11 @@ component({
   $store: {
     agreeNum: {
       observer: 'onChange_agreeNum',
-      value: 0
+      default: 0
     },
     disagreeNum: {
       observer: 'onChange_disagreeNum',
-      value: 0
+      default: 0
     }
   },
   methods: {
@@ -22,15 +22,15 @@ component({
     },
     addAgree() {
       // 取值从 data.$store 中取
-      let { agreeNum } = this.data.$store;
+      let { $store } = this.data;
       // 设置值的方式： 直接对 this.$store 对应属性赋值
-      this.$store.agreeNum = agreeNum + 1;
+      $store.agreeNum += 1;
     },
     addDisagree() {
       // 取值从 data.$store 中取
-      let { disagreeNum } = this.data.$store;
+      let { $store } = this.data;
       // 设置值的方式： 直接对 this.$store 对应属性赋值
-      this.$store.disagreeNum = disagreeNum + 1;
+      $store.disagreeNum += 1;
     }
   }
 });

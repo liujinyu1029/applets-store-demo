@@ -7,6 +7,8 @@
   <view class="page-cont">
     <view>Agree：{{ $store.agreeNum }}</view>
     <button size="mini" class="add-num" bindtap="addAgree">点击投Agree一票</button>
+    <view>Disagree：{{ $store.disagreeNum }}</view>
+    <button size="mini" class="add-num" bindtap="addDisagree">点击投Disagree一票</button>
   </view>
 
   <view class="h2">下面引入了公共组件counter</view>

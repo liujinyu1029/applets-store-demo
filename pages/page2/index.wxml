@@ -2,6 +2,8 @@
 <view class="container">
   <view class="h2">这里是page内容</view>
   <view class="page-cont">
+    <view>Agree：{{ $store.agreeNum }}</view>
+    <button size="mini" class="add-num" bindtap="addAgree">点击投Agree一票</button>
     <view>Disagree：{{ $store.disagreeNum }}</view>
     <button size="mini" class="add-num" bindtap="addDisagree">点击投Disagree一票</button>
   </view>
