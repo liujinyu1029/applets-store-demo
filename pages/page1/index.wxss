@@ -1,0 +1,30 @@
+/**index.wxss**/
+.goPage2 {
+  color: blue;
+  font-size: 30rpx;
+  margin-left: 30rpx;
+  display: block;
+  margin-top: 50rpx;
+}
+.h2 {
+  padding-left: 30rpx;
+  font-size: 30rpx;
+  color: brown;
+}
+.page-cont {
+  padding: 20rpx;
+  font-size: 40rpx;
+  margin-bottom: 60rpx;
+}
+.add-num {
+  font-size: 20rpx;
+  width: 30rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  border: 1rpx solid #999;
+  margin: 0;
+}
+.top-desc {
+  padding: 10rpx 30rpx;
+  color: #aaa;
+}
